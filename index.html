@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./img/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+    <title>Starbucks</title>
+  </head>
+  <body>
+    <div class="circle"></div>
+    <img class="logo" src="./img/logo.png" alt="logo" />
+    <main class="content">
+      <div class="box-text">
+        <h1>It's not just coffee, <br> it's <span class="span">Starbucks</span></h1>
+        <p>
+          At Starbucks you can find high quality coffee and products in a great
+          atmosphere, comfortable and cozy. Hot and cold drinks, sweets
+          differentiated and much more...
+        </p>
+        <button class="myButton">Buy it now!</button>
+      </div>
+      <div class="box-img">
+        <img class="big-cup" src="./img/img1.png" alt="big-cup" />
+      </div>
+    </main>
+    <div class="menu">
+      <img onclick="greenCopo()" class="small-cup" src="./img/img-pequena1.png" alt="cup-01" />
+      <img onclick="pinkCopo()" id="pink-cup" class="small-cup" src="./img/img-pequena2.png" alt="cup-02" />
+      <img onclick="lilacCopo()" class="small-cup" src="./img/img-pequena3.png" alt="cup-03" />
+    </div>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
